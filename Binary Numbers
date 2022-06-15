@@ -13,9 +13,10 @@ if __name__ == '__main__':
         return str1
         
     binary = find(n)
+    
     l1 = binary.split("0")
-    def mykey(n):
-        return len(n)
+    
+    def mykey(n): return len(n)
     
     l1.sort(key=mykey)
     
